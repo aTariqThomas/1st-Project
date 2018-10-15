@@ -1,0 +1,6 @@
+.data #The beginning of the data segment
+.text #mark beginning of a text (code) segment
+main: #Start of section
+li $v0, 10 # load code for exit # system call in $v0
+syscall # make the system call to exit
+
